@@ -18,7 +18,7 @@ It carries
 5
 <!-- tl:end --> conventions and
 <!-- tl:count type == 'system_requirement' -->
-17
+18
 <!-- tl:end --> rules.
 
 ## Purpose
@@ -111,6 +111,7 @@ It carries
 | SR-0012 | system_requirement | approved | Write dates as "1 July 2026" |
 | SR-0013 | system_requirement | approved | Use "to" in number, date and time ranges, not a dash |
 | SR-0014 | system_requirement | approved | Write times in the 12-hour clock |
+| SR-0018 | system_requirement | approved | Show money with the £ symbol |
 <!-- tl:end -->
 
 ## 5. Format abbreviations and symbols
