@@ -1,17 +1,17 @@
-# throughline-mechanics-uk
+# throughline-conventions-uk
 
-The **British-English mechanics** content axis, expressed as a
+The **British-English conventions** content axis, expressed as a
 [throughline](https://pypi.org/project/throughline/) **source** — a standalone,
 grounded requirements graph that a consuming project composes with
 [throughline-compose](https://github.com/timebacksolutions/throughline-compose).
 
 This repository holds no application code. It is a directory of small YAML items with
 permanent UIDs, validated by `tl check`. Consumers import it under a namespace and
-reference its rules as `mechanics:SR-0004` or its conventions as `mechanics:UR-0002`.
+reference its rules as `conventions:SR-0004` or its conventions as `conventions:UR-0002`.
 
 ## One orthogonal axis, on purpose
 
-This source is **only** the surface-mechanics axis for **one dialect** — British
+This source is **only** the surface-conventions axis for **one dialect** — British
 English: spelling, punctuation, capitalisation, numbers and abbreviation formatting.
 It deliberately says nothing about:
 
@@ -22,10 +22,10 @@ It deliberately says nothing about:
 - **brand voice** (an organisation's own personality)
 
 Each of those is its own throughline source. A US house style is a **sibling** source
-(`throughline-mechanics-us`), not a branch of this one, because the two dialects are
+(`throughline-conventions-us`), not a branch of this one, because the two dialects are
 different axes rather than editions of one axis. Keeping the axes separate is the
 whole point: a task like *"a plain, formal, UK-English web page"* becomes a **compose**
-of `plain` + `tone-formal` + `mechanics-uk` + `medium-web` — the same way a security
+of `plain` + `tone-formal` + `conventions-uk` + `medium-web` — the same way a security
 project composes `asvs` + `gds` + `wcag`.
 
 ## What's in the graph
@@ -58,9 +58,9 @@ Government Licence v3.0**. Downstream use must preserve the OGL attribution in
 
 ## Extending the source
 
-Re-run [`tools/generate_mechanics_uk.py`](tools/generate_mechanics_uk.py) after editing
-the curated table in that file; it assigns UIDs positionally, so existing UIDs stay
-stable as long as you append rather than reorder. Then:
+Items are hand-authored static YAML — one file per item, one permanent UID per file.
+To add a rule, create the next `SR-00NN.yml` by hand (never renumber an existing one)
+and link it with `implements` to its convention. Then:
 
 ```sh
 tl check --strict      # the graph must stay sound

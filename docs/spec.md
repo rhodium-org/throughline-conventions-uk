@@ -1,16 +1,16 @@
-# British-English Mechanics — throughline source
+# British-English Conventions — throughline source
 
 This document is **generated from the graph** by `tl docs`; `tl docs --check` gates
 it in CI. The prose headings are hand-owned — everything between `tl:*` markers is
 injected from the YAML items, so the published spec can never drift from the graph.
 
-This source is the **British-English mechanics axis** only: spelling, punctuation,
+This source is the **British-English conventions axis** only: spelling, punctuation,
 capitalisation, numbers and abbreviation formatting for one dialect. It says nothing
 about readability, tone, genre, medium or brand voice — each of those is its own
 throughline source, so a consumer composes exactly the axes a task needs. Every
 convention is a `user_requirement`; every rule is a `system_requirement` that
 `implements` its convention. The throughline UIDs are this source's own and immutable
-— a consumer cites a rule as `mechanics:SR-0004`, never by its GOV.UK heading, which
+— a consumer cites a rule as `conventions:SR-0004`, never by its GOV.UK heading, which
 lives in `attrs.source_ref`.
 
 It carries
@@ -26,7 +26,7 @@ It carries
 <!-- tl:item INT-0001 -->
 **INT-0001 — Text follows one consistent British-English house style** — `intent`, status `approved`
 
-> Surface mechanics — spelling, punctuation, capitalisation, numbers and abbreviation formatting — must be uniform and unambiguous across a body of content, whatever that content says or however it is toned. Consistent mechanics remove distraction and signal care; inconsistent mechanics make a reader doubt everything else. This axis governs the British-English dialect only; a US house style is a separate sibling source.
+> Surface conventions — spelling, punctuation, capitalisation, numbers and abbreviation formatting — must be uniform and unambiguous across a body of content, whatever that content says or however it is toned. Consistent conventions remove distraction and signal care; inconsistent conventions make a reader doubt everything else. This axis governs the British-English dialect only; a US house style is a separate sibling source.
 
 **source_ref**: GOV.UK style guide
 <!-- tl:end -->

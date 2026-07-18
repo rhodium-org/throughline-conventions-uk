@@ -1,19 +1,19 @@
 [project]
-name = "British-English Mechanics (throughline source)"
+name = "British-English Conventions (throughline source)"
 format_version = 2
 
 # A throughline *source*: a standalone graph a consuming project composes via
-# throughline-compose, importing it under a namespace (e.g. `mechanics`) and
-# referencing conventions as `mechanics:UR-0002` or rules as `mechanics:SR-0004`.
+# throughline-compose, importing it under a namespace (e.g. `conventions`) and
+# referencing conventions as `conventions:UR-0002` or rules as `conventions:SR-0004`.
 # The UIDs here are this source's own and immutable; the published style reference
 # lives in `attrs.source_ref`, never in the UID.
 #
-# This is an ORTHOGONAL content axis — surface *mechanics* for one dialect only:
+# This is an ORTHOGONAL content axis — surface *conventions* for one dialect only:
 # British-English spelling, punctuation, capitalisation, numbers and abbreviation
 # formatting. It deliberately says nothing about readability, tone, genre, medium or
 # brand voice; each of those is its own throughline source, so a consumer composes
-# exactly the axes a task needs (e.g. plain + mechanics-uk + tone-formal). A US
-# variant is a SIBLING source (`throughline-mechanics-us`), never a branch of this
+# exactly the axes a task needs (e.g. plain + conventions-uk + tone-formal). A US
+# variant is a SIBLING source (`throughline-conventions-us`), never a branch of this
 # one, because the two dialects are different axes, not editions of one axis.
 #
 # Content is a faithful re-expression of the GOV.UK style guide
