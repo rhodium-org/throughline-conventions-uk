@@ -18,7 +18,7 @@ It carries
 5
 <!-- tl:end --> conventions and
 <!-- tl:count type == 'system_requirement' -->
-18
+21
 <!-- tl:end --> rules.
 
 ## Purpose
@@ -70,6 +70,7 @@ It carries
 | SR-0005 | system_requirement | approved | Use one space after a full stop, never two |
 | SR-0006 | system_requirement | approved | Use a spaced en dash for a parenthetical dash, not an em dash |
 | SR-0007 | system_requirement | approved | Use double quotation marks for direct quotations, and single marks for a quot... |
+| SR-0021 | system_requirement | approved | Format bullet lists and numbered steps the GOV.UK way |
 <!-- tl:end -->
 
 ## 3. Capitalise sparingly
@@ -112,6 +113,8 @@ It carries
 | SR-0013 | system_requirement | approved | Use "to" in number, date and time ranges, not a dash |
 | SR-0014 | system_requirement | approved | Write times in the 12-hour clock |
 | SR-0018 | system_requirement | approved | Show money with the £ symbol |
+| SR-0019 | system_requirement | approved | Use a comma for the thousands separator and a full stop for the decimal point |
+| SR-0020 | system_requirement | approved | Use word form for large round numbers |
 <!-- tl:end -->
 
 ## 5. Format abbreviations and symbols

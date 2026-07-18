@@ -1,0 +1,13 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: 'Use a comma for the thousands separator and a full stop for the decimal point'
+text: 'Use a comma as the thousands separator and a full stop as the decimal point, so
+  numbers read in the British style — for example "1,240", "£42.50" and "1,234.56", never
+  the continental "1.240" or "1.234,56".'
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 'GOV.UK — numbers'
+  principle: UR-0004

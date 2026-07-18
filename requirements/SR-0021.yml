@@ -1,0 +1,15 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: 'Format bullet lists and numbered steps the GOV.UK way'
+text: 'Introduce a list with a lead-in line. In a bullet list, start each bullet with a
+  lower-case letter unless it begins with a proper noun, keep each bullet to a single
+  point, and do not end a bullet with a full stop or join bullets with "and" or "or".
+  Numbered steps are full sentences, so start each with a capital letter and end it with a
+  full stop.'
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: 'GOV.UK — bullet points and steps'
+  principle: UR-0002

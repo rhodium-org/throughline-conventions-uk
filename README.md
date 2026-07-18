@@ -35,7 +35,7 @@ project composes `asvs` + `gds` + `wcag`.
 <!-- tl:end --> conventions as `user_requirement`s, each `derives_from` the root
 intent, and
 <!-- tl:count type == 'system_requirement' -->
-18
+21
 <!-- tl:end --> concrete rules as `system_requirement`s, each `implements` its
 convention. The published spec is generated from the graph at
 [`docs/spec.md`](docs/spec.md).
