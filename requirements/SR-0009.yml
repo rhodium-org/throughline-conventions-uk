@@ -1,0 +1,11 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: 'Do not capitalise words for emphasis or to signal importance'
+text: 'Do not capitalise words for emphasis or to signal importance.'
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: 'GOV.UK — capitalisation'
+  principle: UR-0003

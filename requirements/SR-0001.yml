@@ -1,0 +1,11 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: 'Use British spellings'
+text: 'Use British spellings — "organise" not "organize", "colour" not "color".'
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: 'GOV.UK — spelling'
+  principle: UR-0001

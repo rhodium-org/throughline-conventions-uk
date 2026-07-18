@@ -1,0 +1,11 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: 'Use sentence case for all headings, titles and labels'
+text: 'Use sentence case for all headings, titles and labels — capitalise only the first word and proper nouns.'
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: 'GOV.UK — capitalisation'
+  principle: UR-0003

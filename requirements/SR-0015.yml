@@ -1,0 +1,11 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: 'Do not use full stops in abbreviations'
+text: 'Do not use full stops in abbreviations — "US", "eg", "am".'
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: 'GOV.UK — abbreviations'
+  principle: UR-0005

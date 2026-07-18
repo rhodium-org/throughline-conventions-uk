@@ -1,0 +1,11 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: 'Use one space after a full stop, never two'
+text: 'Use one space after a full stop, never two.'
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: 'GOV.UK — full stops'
+  principle: UR-0002

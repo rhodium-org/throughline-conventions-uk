@@ -1,0 +1,18 @@
+throughline-mechanics-uk
+Copyright 2026 Time Back Solutions Limited
+
+This product includes work developed by Time Back Solutions Limited.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+re-expresses the GOV.UK style guide as a grounded IDD graph so consuming projects can
+compose it with throughline-compose.
+
+The GOV.UK style guide (https://www.gov.uk/guidance/style-guide) is Crown copyright,
+published by the Government Digital Service under the Open Government Licence v3.0
+(http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). The
+conventions reproduced here in items' text and attrs.source_ref are derived from that
+source under the terms of that licence; this repository claims no ownership over that
+underlying content.

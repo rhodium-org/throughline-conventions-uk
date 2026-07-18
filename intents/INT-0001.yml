@@ -1,0 +1,8 @@
+uid: INT-0001
+type: intent
+status: approved
+title: 'Text follows one consistent British-English house style'
+text: 'Surface mechanics — spelling, punctuation, capitalisation, numbers and abbreviation formatting — must be uniform and unambiguous across a body of content, whatever that content says or however it is toned. Consistent mechanics remove distraction and signal care; inconsistent mechanics make a reader doubt everything else. This axis governs the British-English dialect only; a US house style is a separate sibling source.'
+normative: false
+attrs:
+  source_ref: 'GOV.UK style guide'

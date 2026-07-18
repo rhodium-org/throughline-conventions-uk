@@ -1,0 +1,11 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: 'Write times in the 12-hour clock'
+text: 'Write times in the 12-hour clock — "5pm", "midday", "midnight".'
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 'GOV.UK — times'
+  principle: UR-0004

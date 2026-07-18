@@ -1,0 +1,10 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: 'Format abbreviations and symbols'
+text: 'Format short forms and symbols consistently. Whether to define a term for the reader is a readability concern, handled on a separate axis.'
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: 'GOV.UK style guide — abbreviations'

@@ -1,0 +1,61 @@
+[project]
+name = "British-English Mechanics (throughline source)"
+format_version = 2
+
+# A throughline *source*: a standalone graph a consuming project composes via
+# throughline-compose, importing it under a namespace (e.g. `mechanics`) and
+# referencing conventions as `mechanics:UR-0002` or rules as `mechanics:SR-0004`.
+# The UIDs here are this source's own and immutable; the published style reference
+# lives in `attrs.source_ref`, never in the UID.
+#
+# This is an ORTHOGONAL content axis — surface *mechanics* for one dialect only:
+# British-English spelling, punctuation, capitalisation, numbers and abbreviation
+# formatting. It deliberately says nothing about readability, tone, genre, medium or
+# brand voice; each of those is its own throughline source, so a consumer composes
+# exactly the axes a task needs (e.g. plain + mechanics-uk + tone-formal). A US
+# variant is a SIBLING source (`throughline-mechanics-us`), never a branch of this
+# one, because the two dialects are different axes, not editions of one axis.
+#
+# Content is a faithful re-expression of the GOV.UK style guide
+# (https://www.gov.uk/guidance/style-guide), Crown copyright, published under the
+# Open Government Licence v3.0. Each convention is a `user_requirement`; each concrete
+# rule is a `system_requirement` that `implements` its convention.
+
+[grounding]
+root_types = ["intent"]
+delivery_roots = ["intent"]
+ground_link_types = ["derives_from", "implements"]
+ai_origins = ["ai", "hybrid"]
+
+[types.user_requirement]
+attrs.source_ref = { required = true }
+
+[types.system_requirement]
+attrs.source_ref = { required = true }
+
+[links]
+types = ["derives_from", "implements", "relates"]
+
+[link_rules]
+derives_from = { from = ["user_requirement"], to = ["intent"] }
+implements   = { from = ["system_requirement"], to = ["user_requirement"] }
+
+[status]
+values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+          "verified", "suspect", "rejected", "deleted"]
+
+[transitions]
+proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
+draft       = ["approved", "deferred", "rejected", "deleted"]
+deferred    = ["draft", "approved", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["draft", "deleted"]
+
+# `tl docs` regenerates docs/spec.md + README.md from the graph; `tl docs --check`
+# gates them so the published counts and tables can never drift.
+[docs]
+paths = ["docs/*.md", "README.md"]

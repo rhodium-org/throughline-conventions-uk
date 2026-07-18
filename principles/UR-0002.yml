@@ -1,0 +1,10 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: 'Punctuate to British convention'
+text: 'Apply British punctuation conventions consistently.'
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: 'GOV.UK style guide — punctuation'

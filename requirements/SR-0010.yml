@@ -1,0 +1,11 @@
+uid: SR-0010
+type: system_requirement
+status: approved
+title: 'Lowercase job titles and roles unless they form part of a name'
+text: 'Lowercase job titles and roles unless they form part of a name.'
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: 'GOV.UK — capitalisation'
+  principle: UR-0003

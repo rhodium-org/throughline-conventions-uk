@@ -1,0 +1,10 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: 'Capitalise sparingly'
+text: 'Reserve capitals for the start of a sentence and for proper nouns.'
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: 'GOV.UK style guide — capitalisation'
