@@ -1,7 +1,7 @@
 uid: SR-0007
 type: system_requirement
 status: approved
-title: 'Use double quotation marks for direct quotations, and single marks for a quot...'
+title: 'Use double quotation marks for direct quotations, and single marks for a quote within a quote'
 text: 'Use double quotation marks for direct quotations, and single marks for a quote within a quote.'
 links:
 - target: UR-0002

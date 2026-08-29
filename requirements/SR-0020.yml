@@ -2,8 +2,7 @@ uid: SR-0020
 type: system_requirement
 status: approved
 title: 'Use word form for large round numbers'
-text: 'Use word form for large round numbers rather than long strings of zeros — for
-  example "£3 million", "2 billion" and "£1m", not "£3,000,000".'
+text: 'Use word form for large round numbers rather than long strings of zeros — for example "£3 million", "2 billion" and "£1m", not "£3,000,000".'
 links:
 - target: UR-0004
   type: implements

@@ -2,8 +2,7 @@ uid: SR-0018
 type: system_requirement
 status: approved
 title: 'Show money with the £ symbol'
-text: 'Show money with the £ symbol, using decimals only for amounts that include pence
-  and omitting a trailing ".00" for whole amounts — for example "£75", "£75.50", "£1,240".'
+text: 'Show money with the £ symbol, using decimals only for amounts that include pence and omitting a trailing ".00" for whole amounts — for example "£75", "£75.50", "£1,240".'
 links:
 - target: UR-0004
   type: implements

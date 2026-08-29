@@ -69,7 +69,7 @@ It carries
 | SR-0004 | system_requirement | approved | Do not use the Oxford (serial) comma unless it removes a genuine ambiguity |
 | SR-0005 | system_requirement | approved | Use one space after a full stop, never two |
 | SR-0006 | system_requirement | approved | Use a spaced en dash for a parenthetical dash, not an em dash |
-| SR-0007 | system_requirement | approved | Use double quotation marks for direct quotations, and single marks for a quot... |
+| SR-0007 | system_requirement | approved | Use double quotation marks for direct quotations, and single marks for a quote within a quote |
 | SR-0021 | system_requirement | approved | Format bullet lists and numbered steps the GOV.UK way |
 <!-- tl:end -->
 
