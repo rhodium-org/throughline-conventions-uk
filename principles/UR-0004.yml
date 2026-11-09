@@ -1,10 +1,11 @@
 uid: UR-0004
 type: user_requirement
-status: approved
-title: 'Write numbers, dates and times the GOV.UK way'
-text: 'Follow the GOV.UK conventions for figures, dates and times.'
+status: proposed
+title: Write numbers, dates and times the GOV.UK way
+text: Follow the GOV.UK conventions for figures, dates and times.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: 'GOV.UK style guide — numbers'
+  source_ref: GOV.UK style guide — numbers

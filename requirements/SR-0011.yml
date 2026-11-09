@@ -1,11 +1,12 @@
 uid: SR-0011
 type: system_requirement
-status: approved
-title: 'Use numerals for all numbers, including 1 to 9'
-text: 'Use numerals for all numbers, including 1 to 9.'
+status: proposed
+title: Use numerals for all numbers, including 1 to 9
+text: Use numerals for all numbers, including 1 to 9.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: 'GOV.UK — numbers'
+  source_ref: GOV.UK — numbers
   principle: UR-0004
