@@ -24,7 +24,7 @@ It carries
 ## Purpose
 
 <!-- tl:item INT-0001 -->
-**INT-0001 — Text follows one consistent British-English house style** — `intent`, status `approved`
+**INT-0001 — Text follows one consistent British-English house style** — `intent`, status `proposed`
 
 > Surface conventions — spelling, punctuation, capitalisation, numbers and abbreviation formatting — must be uniform and unambiguous across a body of content, whatever that content says or however it is toned. Consistent conventions remove distraction and signal care; inconsistent conventions make a reader doubt everything else. This axis governs the British-English dialect only; a US house style is a separate sibling source.
 
@@ -34,7 +34,7 @@ It carries
 ## 1. Spell in British English
 
 <!-- tl:item UR-0001 -->
-**UR-0001 — Spell in British English** — `user_requirement`, status `approved`
+**UR-0001 — Spell in British English** — `user_requirement`, status `proposed`
 
 > Use British-English spelling throughout.
 
@@ -46,15 +46,15 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0001' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0001 | system_requirement | approved | Use British spellings |
-| SR-0002 | system_requirement | approved | Use "-ise" and "-isation" endings, not "-ize" and "-ization" |
-| SR-0003 | system_requirement | approved | Keep the noun/verb distinction |
+| SR-0001 | system_requirement | proposed | Use British spellings |
+| SR-0002 | system_requirement | proposed | Use "-ise" and "-isation" endings, not "-ize" and "-ization" |
+| SR-0003 | system_requirement | proposed | Keep the noun/verb distinction |
 <!-- tl:end -->
 
 ## 2. Punctuate to British convention
 
 <!-- tl:item UR-0002 -->
-**UR-0002 — Punctuate to British convention** — `user_requirement`, status `approved`
+**UR-0002 — Punctuate to British convention** — `user_requirement`, status `proposed`
 
 > Apply British punctuation conventions consistently.
 
@@ -66,17 +66,17 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0002' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0004 | system_requirement | approved | Do not use the Oxford (serial) comma unless it removes a genuine ambiguity |
-| SR-0005 | system_requirement | approved | Use one space after a full stop, never two |
-| SR-0006 | system_requirement | approved | Use a spaced en dash for a parenthetical dash, not an em dash |
-| SR-0007 | system_requirement | approved | Use double quotation marks for direct quotations, and single marks for a quote within a quote |
-| SR-0021 | system_requirement | approved | Format bullet lists and numbered steps the GOV.UK way |
+| SR-0004 | system_requirement | proposed | Do not use the Oxford (serial) comma unless it removes a genuine ambiguity |
+| SR-0005 | system_requirement | proposed | Use one space after a full stop, never two |
+| SR-0006 | system_requirement | proposed | Use a spaced en dash for a parenthetical dash, not an em dash |
+| SR-0007 | system_requirement | proposed | Use double quotation marks for direct quotations, and single marks for a quote within a quote |
+| SR-0021 | system_requirement | proposed | Format bullet lists and numbered steps the GOV.UK way |
 <!-- tl:end -->
 
 ## 3. Capitalise sparingly
 
 <!-- tl:item UR-0003 -->
-**UR-0003 — Capitalise sparingly** — `user_requirement`, status `approved`
+**UR-0003 — Capitalise sparingly** — `user_requirement`, status `proposed`
 
 > Reserve capitals for the start of a sentence and for proper nouns.
 
@@ -88,15 +88,15 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0003' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0008 | system_requirement | approved | Use sentence case for all headings, titles and labels |
-| SR-0009 | system_requirement | approved | Do not capitalise words for emphasis or to signal importance |
-| SR-0010 | system_requirement | approved | Lowercase job titles and roles unless they form part of a name |
+| SR-0008 | system_requirement | proposed | Use sentence case for all headings, titles and labels |
+| SR-0009 | system_requirement | proposed | Do not capitalise words for emphasis or to signal importance |
+| SR-0010 | system_requirement | proposed | Lowercase job titles and roles unless they form part of a name |
 <!-- tl:end -->
 
 ## 4. Write numbers, dates and times the GOV.UK way
 
 <!-- tl:item UR-0004 -->
-**UR-0004 — Write numbers, dates and times the GOV.UK way** — `user_requirement`, status `approved`
+**UR-0004 — Write numbers, dates and times the GOV.UK way** — `user_requirement`, status `proposed`
 
 > Follow the GOV.UK conventions for figures, dates and times.
 
@@ -108,19 +108,19 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0004' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0011 | system_requirement | approved | Use numerals for all numbers, including 1 to 9 |
-| SR-0012 | system_requirement | approved | Write dates as "1 July 2026" |
-| SR-0013 | system_requirement | approved | Use "to" in number, date and time ranges, not a dash |
-| SR-0014 | system_requirement | approved | Write times in the 12-hour clock |
-| SR-0018 | system_requirement | approved | Show money with the £ symbol |
-| SR-0019 | system_requirement | approved | Use a comma for the thousands separator and a full stop for the decimal point |
-| SR-0020 | system_requirement | approved | Use word form for large round numbers |
+| SR-0011 | system_requirement | proposed | Use numerals for all numbers, including 1 to 9 |
+| SR-0012 | system_requirement | proposed | Write dates as "1 July 2026" |
+| SR-0013 | system_requirement | proposed | Use "to" in number, date and time ranges, not a dash |
+| SR-0014 | system_requirement | proposed | Write times in the 12-hour clock |
+| SR-0018 | system_requirement | proposed | Show money with the £ symbol |
+| SR-0019 | system_requirement | proposed | Use a comma for the thousands separator and a full stop for the decimal point |
+| SR-0020 | system_requirement | proposed | Use word form for large round numbers |
 <!-- tl:end -->
 
 ## 5. Format abbreviations and symbols
 
 <!-- tl:item UR-0005 -->
-**UR-0005 — Format abbreviations and symbols** — `user_requirement`, status `approved`
+**UR-0005 — Format abbreviations and symbols** — `user_requirement`, status `proposed`
 
 > Format short forms and symbols consistently. Whether to define a term for the reader is a readability concern, handled on a separate axis.
 
@@ -132,7 +132,7 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0005' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0015 | system_requirement | approved | Do not use full stops in abbreviations |
-| SR-0016 | system_requirement | approved | Use "and", not an ampersand, except within a proper name |
-| SR-0017 | system_requirement | approved | Use the "%" symbol with a numeral, not the words "per cent" |
+| SR-0015 | system_requirement | proposed | Do not use full stops in abbreviations |
+| SR-0016 | system_requirement | proposed | Use "and", not an ampersand, except within a proper name |
+| SR-0017 | system_requirement | proposed | Use the "%" symbol with a numeral, not the words "per cent" |
 <!-- tl:end -->
